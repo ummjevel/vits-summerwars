@@ -56,3 +56,15 @@ python train_ms.py -c configs/vctk_base.json -m vctk_base
 
 ## Inference Example
 See [inference.ipynb](inference.ipynb)
+
+
+## Todo
+* [x] fork repo
+* [ ] add batch inference
+  * [ ] preprocess batch
+    * [ ] text normalization
+    * [ ] phonemizer
+  * [ ] inference batch
+    * [ ] single speaker
+    * [ ] multiple speaker
+* [ ] add convnext mode
